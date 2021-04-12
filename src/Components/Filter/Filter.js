@@ -8,7 +8,7 @@ import { filterContacts } from '../../redux/contacts/contacts-actions';
 const Filter = ({ filterValue, onChangeFilter }) => {
   return (
     <label className={s.label}>
-      Find contacts by name
+      Search for contacts by name
       <input  className={s.input}
         type="text"
         value={filterValue}

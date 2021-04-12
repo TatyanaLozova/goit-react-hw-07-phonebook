@@ -48,7 +48,8 @@ class ContactForm extends Component {
                      type="text"
                         name="name"
                         value={name}
-                        onChange={this.handleChange}
+                onChange={this.handleChange}
+                placeholder="Name"
                        
                     />
                 </label>
@@ -59,6 +60,7 @@ class ContactForm extends Component {
                         name="number"
                         value={number}
                         onChange={this.handleChange}
+                        placeholder="000-00-00"
                       
                     />
                 </label>
